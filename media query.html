@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            height: 200px;
+            background-color: yellow;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            margin:10px;
+            font-size: 50px;
+        }
+        @media (max-width:500px)
+         {
+            header{
+                background-color:red;
+                height: 900px;
+            }
+            #b{display: none;}
+            #c{
+                display: none;
+            }
+        }
+            @media (min-width:501px) and (max-width:1300px)
+            {
+                header{
+                    background-color: greenyellow;
+                    height: 500px;
+
+                }
+                #c{
+                    display: none;
+                }
+            }
+                
+            
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2 id="a">my name is rudra</h2>
+        <h2 id="b">my name is rohit</h2>
+        <h2 id="c">my name is advit</h2>
+    </header>
+    
+</body>
+</html>
