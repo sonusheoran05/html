@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        .container{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white#ecf0f3;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            font-family: sans-serif;
+        }
+        .calc{
+            box-shadow: 6px 6px 13px white#fff,
+                   6px 6px 13px rgba(red, green, blue, alpha);
+                   border-radius: 28px;
+                   padding: 16px;
+                   display: grid;
+                   grid-template-columns: repeat(4,66px);
+
+        }
+input{
+    grid-column: span 4;
+    height: 68px;
+    width: 258px;
+    box-shadow: 6px 6px 13px white#fff,
+              6px 6px 13px rgba;
+              background-color: #ecf0f3;
+              border: none;
+              border-radius: 32px;
+              color: rgb(red, green, blue);
+              text-align: end;
+              margin: 40px 0px 30px 0px;
+              padding: 20px;
+              font-size: 40px;
+}
+            
+        
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    
+    
+        <div class="calc">
+            <input type="text" id="inputtext" placeholder="0">
+            
+            <button>c</button>
+            <button>del</button>
+            <button>%</button>
+            <button>/</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>*</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>-</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+            <button>0</button>
+            <button>=</button>
+        </div>
+    </div>
+</body>
+</html>
